@@ -28,7 +28,3 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Request failed', error ))
 })
-
-
-//проверка полей на фронте или на бэке 
-// <!-- trim -->
