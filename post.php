@@ -12,7 +12,7 @@
         ],
     ];
 
-    $result_msg;
+    $result_msg = "";
 
     if (array_key_exists(trim($_POST['email']), $users)) {
         $result_msg = "reg failed";
